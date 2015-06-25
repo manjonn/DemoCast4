@@ -31,7 +31,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITextFieldDelegate
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        var cell:UITableViewCell?=tableView.dequeueReusableCellWithIdentifier(cellIdentifier) as! UITableViewCell?
+        var cell:UITableViewCell?=tableView.dequeueReusableCellWithIdentifier(cellIdentifier) as UITableViewCell?
         if cell==nil{
             cell=UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: cellIdentifier)
         }
@@ -40,7 +40,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITextFieldDelegate
     }
     
     func textFieldShouldReturn(textField: UITextField) -> Bool {
-        items.append(textField.text)
+        items.append(textField.text!)
         textField.text=""
         toDoTableView.reloadData()
         return true

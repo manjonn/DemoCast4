@@ -156,6 +156,7 @@
 		0527B29F1ABE468A0011600E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "Manjula Jonnalagadda";
 				TargetAttributes = {
@@ -405,6 +406,7 @@
 				0527B2C81ABE468A0011600E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0527B2C91ABE468A0011600E /* Build configuration list for PBXNativeTarget "DemoCast3Tests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +415,7 @@
 				0527B2CB1ABE468A0011600E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
